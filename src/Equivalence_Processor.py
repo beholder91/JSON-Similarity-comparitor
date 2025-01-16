@@ -19,7 +19,8 @@ class Equivalence_Processor():
             # Calculate how similar they are, if at all. 
             print("JSON files not exactly the same.")
             self.compare_objects(comparison)
-            return 0
+            total = self.sim + self.diff_val
+            return self.sim / total if total > 0 else 0
             
         else: 
             self.compare_objects(comparison)

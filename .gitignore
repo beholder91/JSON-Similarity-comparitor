@@ -16,3 +16,7 @@ src/__pycache__/obj_tree\.cpython-37\.pyc
 \.idea/vcs\.xml
 
 \.idea/
+
+temp/
+
+.DS_Store
